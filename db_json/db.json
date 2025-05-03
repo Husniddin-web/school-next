@@ -1,0 +1,54 @@
+{
+  "students": [
+    {
+      "id": "1746275514275",
+      "firstName": "Ali",
+      "lastName": "Salohiddinov",
+      "birthDate": "2025-05-08",
+      "classId": "1"
+    }
+  ],
+  "classes": [
+    {
+      "id": "1",
+      "name": "Urushqoqlar",
+      "studentCount": 1,
+      "teacherId": 1
+    },
+    {
+      "id": "2",
+      "name": "Esliklar",
+      "studentCount": 12,
+      "teacherId": 2
+    }
+  ],
+  "teachers": [
+    {
+      "id": "1",
+      "firstName": "Lola",
+      "lastName": "Ahmedova",
+      "classes": [
+        1
+      ],
+      "birthDate": "11-11-1989"
+    },
+    {
+      "id": "2",
+      "firstName": "Adham",
+      "lastName": "Mirzayev",
+      "classes": [
+        2
+      ],
+      "birthDate": "11-11-1989"
+    }
+  ],
+  "school": {
+    "name": "144-sonli Umumta'lim maktabi",
+    "location": "Muqiymiy ko'ch. 100 uy",
+    "overallStudentCount": 1,
+    "overallStaffCount": 1,
+    "overallClassCount": 1,
+    "about": "Yaxshi maktab!",
+    "phoneNumber": "+9989565555551"
+  }
+}
