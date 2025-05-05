@@ -18,4 +18,10 @@ export const StudentCreateWrapper = styled.div`
     flex-direction: column;
     gap: 10px;
   }
+  .select-form {
+    width: 100%;
+    padding: 8px 10px;
+    border-radius: 10px;
+    outline-color: #bc8e5b;
+  }
 `;

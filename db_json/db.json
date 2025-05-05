@@ -1,11 +1,32 @@
 {
   "students": [
     {
-      "id": "1746275514275",
+      "id": "1746427601746",
+      "firstName": "da",
+      "lastName": "da",
+      "birthDate": "2025-05-22",
+      "classId": "2"
+    },
+    {
+      "id": "1746429920839",
       "firstName": "Ali",
-      "lastName": "Salohiddinov",
-      "birthDate": "2025-05-08",
-      "classId": "1"
+      "lastName": "Jakbaarov",
+      "birthDate": "2025-04-30",
+      "classId": "2"
+    },
+    {
+      "id": "1746431369076",
+      "firstName": "da",
+      "lastName": "da",
+      "birthDate": "2025-05-16",
+      "classId": null
+    },
+    {
+      "id": "1746431715425",
+      "firstName": "DA",
+      "lastName": "DAS",
+      "birthDate": "2025-05-17",
+      "classId": "1746431700690"
     }
   ],
   "classes": [
@@ -13,32 +34,26 @@
       "id": "1",
       "name": "Urushqoqlar",
       "studentCount": 1,
-      "teacherId": 1
+      "teacherId": null
     },
     {
       "id": "2",
       "name": "Esliklar",
-      "studentCount": 12,
-      "teacherId": 2
+      "studentCount": 1,
+      "teacherId": "2"
+    },
+    {
+      "id": "1746431700690",
+      "name": "DAS",
+      "teacherId": "2",
+      "studentCount": 0
     }
   ],
   "teachers": [
     {
-      "id": "1",
-      "firstName": "Lola",
-      "lastName": "Ahmedova",
-      "classes": [
-        1
-      ],
-      "birthDate": "11-11-1989"
-    },
-    {
       "id": "2",
       "firstName": "Adham",
       "lastName": "Mirzayev",
-      "classes": [
-        2
-      ],
       "birthDate": "11-11-1989"
     }
   ],

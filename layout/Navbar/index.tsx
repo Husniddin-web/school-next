@@ -26,6 +26,7 @@ const Navbar = ({ onToggleSidebar, sidebarCollapsed }: NavbarProps) => {
   const titleMap: Record<string, string> = {
     "/": "Dashboard",
     "/students": "Students Management",
+    "/teacher": "Teacher Management",
     "/about": "About",
     "/students/create": "Add New Student",
     "/students/update/": "Update Student",
